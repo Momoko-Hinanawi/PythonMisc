@@ -22,7 +22,7 @@ def partition(arr,lo,hi):
         else:
             swap(arr,i,gt)
             gt = gt - 1
-   
+        pass
     pass
     partition(arr,lo,lt-1)
     partition(arr,gt+1,hi)
